@@ -30,6 +30,9 @@ html {
 	color: hsl(0, 0%, 96%);
 }
 
+.link {
+	font-weight: bold;
+}
 p {
 	color: #787d82;
 }
@@ -86,6 +89,7 @@ a:hover {
 	color: hsl(0, 0%, 100%);
 	text-shadow: 1em;
 	text-decoration: underline;
+	font-weight: bold;
 }
 
 .tile-one {
