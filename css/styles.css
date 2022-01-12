@@ -32,7 +32,18 @@ p {
 }
 
 .navbar {
-	background-color: hsl(0, 0%, 4%);
+	background-image: linear-gradient(
+		110deg,
+		hsl(0deg 0% 4%) 0%,
+		hsl(0deg 0% 3%) 24%,
+		hsl(0deg 0% 2%) 35%,
+		hsl(0deg 0% 1%) 45%,
+		hsl(0deg 0% 1%) 55%,
+		hsl(0deg 0% 4%) 65%,
+		hsl(0deg 0% 6%) 76%,
+		hsl(0deg 0% 9%) 100%
+	);
+
 	padding-left: 1vw;
 }
 
@@ -81,11 +92,35 @@ a:hover {
 	a:hover {
 		color: hsl(0, 0%, 96%);
 	}
+	.navbar-end {
+		background-image: linear-gradient(
+			110deg,
+			hsl(0deg 0% 4%) 0%,
+			hsl(0deg 0% 3%) 24%,
+			hsl(0deg 0% 2%) 35%,
+			hsl(0deg 0% 1%) 45%,
+			hsl(0deg 0% 1%) 55%,
+			hsl(0deg 0% 4%) 65%,
+			hsl(0deg 0% 6%) 76%,
+			hsl(0deg 0% 9%) 100%
+		);
+	}
 }
 
 @media only screen and (min-width: 769px) {
 	.navbar-end {
-		background-color: hsl(0, 0%, 4%);
+		background-image: linear-gradient(
+			110deg,
+			hsl(0deg 0% 4%) 0%,
+			hsl(0deg 0% 3%) 24%,
+			hsl(0deg 0% 2%) 35%,
+			hsl(0deg 0% 1%) 45%,
+			hsl(0deg 0% 1%) 55%,
+			hsl(0deg 0% 4%) 65%,
+			hsl(0deg 0% 6%) 76%,
+			hsl(0deg 0% 9%) 100%
+		);
+
 		width: 80vw;
 		margin-right: -7vw;
 		padding-right: 4vw;
@@ -97,6 +132,10 @@ a:hover {
 		z-index: 999;
 		padding-left: 2vw;
 		margin-left: -1vw;
+	}
+	.content-pad {
+		margin-top: -14vh;
+		margin-bottom: -14vh;
 	}
 }
 
