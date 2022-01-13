@@ -30,7 +30,7 @@ html {
 	color: hsl(0, 0%, 96%);
 }
 
-.link {
+.add-bold {
 	font-weight: bold;
 }
 p {
@@ -89,6 +89,39 @@ a:hover {
 	color: hsl(0, 0%, 100%);
 	text-shadow: 1em;
 	text-decoration: underline;
+	font-weight: bold;
+}
+.underline-one {
+	position: relative;
+	display: inline;
+	bottom: 10%;
+	left: 0;
+	background-image: linear-gradient(
+		to right,
+		rgb(123, 91, 199) 0%,
+		rgb(234, 56, 141) 100%
+	);
+	background-position: bottom -10% left;
+	background-repeat: no-repeat;
+	background-size: 100% 40%;
+	z-index: -1;
+	font-weight: bold;
+}
+
+.underline-two {
+	position: relative;
+	display: inline;
+	bottom: 10%;
+	left: 0;
+	background-image: linear-gradient(
+		to right,
+		rgb(123, 91, 199) 0%,
+		rgb(234, 56, 141) 100%
+	);
+	background-position: bottom -10% left;
+	background-repeat: no-repeat;
+	background-size: 100% 40%;
+	z-index: -1;
 	font-weight: bold;
 }
 
