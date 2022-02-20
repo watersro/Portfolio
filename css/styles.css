@@ -126,7 +126,12 @@ a:hover {
 }
 
 .tile-one {
-	background: linear-gradient(#000000, #000) padding-box,
+	background: linear-gradient(
+				90deg,
+				rgb(123, 91, 199) 0%,
+				rgb(234, 56, 141) 100%
+			)
+			padding-box,
 		linear-gradient(90deg, rgb(123, 91, 199) 0%, rgb(234, 56, 141) 100%)
 			border-box;
 	border: 0.5rem solid transparent;
